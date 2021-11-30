@@ -1,0 +1,26 @@
+export const SliderOne = [
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1o2uWsovyrmk6uYYiFoNMm_BKq29AvRrk",
+  },
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1Kx4y9RlZa1S-3-2vczPpkO3d5TzLRnTh",
+  },
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1LwSeSmtGoL6GCiR6vo6wRBEEqKSRF5am",
+  },
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1H-Kzj09gmmiUv_PADLkmNBwIfb4VqDCB",
+  },
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1SB4ZkFiR2dv6gHb6m7ZEq2OAX6o9adne",
+  },
+  {
+    image:
+      "https://drive.google.com/uc?export=download&id=1qYv3Vaz-QE9dJGXx83Imm-18-cdlRpKw",
+  },
+];

@@ -1,0 +1,200 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6e8e6;
+}
+h1,
+h2,
+h3,
+p,
+article,
+label {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24vw;
+}
+.flex {
+  display: flex;
+}
+#header-container {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  align-items: center;
+  background-color: #f15025;
+  height: 7vh;
+  justify-content: space-between;
+}
+#header-logo {
+  font-size: 2.5vw;
+  width: 10vw;
+  text-align: center;
+}
+#header-nav {
+  width: 35vw;
+}
+#nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-links {
+  font-size: 1.5vw;
+  color: black;
+  text-decoration: none;
+}
+.nav-links:hover {
+  color: #e6e8e6;
+  text-decoration: 3px aliceblue underline;
+}
+#About {
+  height: 93vh;
+}
+#intro-about {
+  height: 25vh;
+  padding: 5vh;
+}
+#main-about {
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-name {
+  font-size: 1.75vw;
+}
+.about-dev {
+  font-size: 1.5vw;
+}
+.titles {
+  font-size: 2.25vw;
+  text-decoration: black 3px underline;
+}
+#about-para {
+  margin-top: 1vh;
+  font-size: 1.75vw;
+  text-align: center;
+}
+#Skills {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ced0ce;
+}
+#skills-title {
+  padding: 5vh 0;
+}
+.skills-row {
+  height: 40vh;
+  display: flex;
+}
+.known-titles {
+  font-size: 1.5vw;
+}
+#Projects {
+  display: flex;
+  flex-direction: column;
+  height: 93vh;
+  align-items: center;
+}
+#ptitle {
+  padding-top: 5vh;
+  margin-bottom: 3vh;
+}
+.projects-container {
+  display: flex;
+  width: 95vw;
+  height: 75vh;
+  justify-content: space-around;
+}
+.pro-size {
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.protitle {
+  font-size: 1.75em;
+}
+.slider {
+  height: 40vh;
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 35vw;
+  height: 30vh;
+}
+.right-arrow {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+}
+.left-arrow {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.75rem;
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.02);
+}
+.prodiscription {
+  width: 35vw;
+  height: 30vh;
+  padding: 1vh;
+  border: 2px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stack {
+  font-size: 1.5vw;
+  margin-bottom: 1vh;
+}
+.disc {
+  font-size: 1.25em;
+  margin-bottom: 1vh;
+}
+.btnDiv {
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-size {
+  width: 5vw;
+  height: 3.5vh;
+  font-size: 1.15em;
+  border: black 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f15025;
+}
+#Contact {
+  background-color: #ced0ce;
+  height: 46vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-title {
+  padding: 5vh 0;
+}
