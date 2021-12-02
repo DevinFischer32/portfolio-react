@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @font-face {
+  font-family: "Montserrat";
+  src: url("../Components/Logo/Montserrat-Regular.ttf");
+} */
+
 body {
   background-color: #e6e8e6;
   font-family: "Montserrat", sans-serif;
