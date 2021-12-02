@@ -51,7 +51,7 @@ export default function Contact() {
             className="contactR"
           >
             <img src={email} alt="email" className="contactLogo" />
-            <p className="contactLogoText">DevinFischer.dev@gmail.com</p>
+            <p className="contactLogoText">devinfischer.dev@gmail.com</p>
           </a>
         </div>
 
