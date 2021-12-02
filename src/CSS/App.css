@@ -1,13 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  font-family: "Montserrat", sans-serif;
   background-color: #e6e8e6;
+  font-family: "Montserrat", sans-serif;
 }
-h1,
-h2,
-h3,
-p,
-article,
-label {
+* {
   font-family: "Montserrat", sans-serif;
 }
 html {
@@ -18,7 +14,8 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 24vw;
+  width: 10vw;
+  padding: 0 4vw;
 }
 .flex {
   display: flex;
@@ -54,10 +51,9 @@ html {
   text-decoration: 3px aliceblue underline;
 }
 #About {
-  height: 93vh;
 }
 #intro-about {
-  height: 25vh;
+  height: 28vh;
   padding: 5vh;
 }
 #main-about {
@@ -74,29 +70,35 @@ html {
 }
 .titles {
   font-size: 2.25vw;
-  text-decoration: black 3px underline;
+  text-decoration: #f15025 3px underline;
 }
 #about-para {
-  margin-top: 1vh;
-  font-size: 1.75vw;
+  margin-top: 2vh;
+  width: 80%;
+  font-size: 1.65em;
   text-align: center;
 }
 #Skills {
-  height: 93vh;
+  padding: 5vh 3vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ced0ce;
 }
 #skills-title {
-  padding: 5vh 0;
+  margin-bottom: 2vh;
 }
 .skills-row {
-  height: 40vh;
   display: flex;
+  padding: 2rem;
 }
 .known-titles {
-  font-size: 1.5vw;
+  margin-top: 1vh;
+  font-size: 1.5em;
+}
+.skillsLogo {
+  width: 96px;
+  height: 96px;
 }
 #Projects {
   display: flex;
@@ -190,11 +192,40 @@ html {
 }
 #Contact {
   background-color: #ced0ce;
-  height: 46vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  border-top-left-radius: #f15025 4px solid;
 }
 #contact-title {
   padding: 5vh 0;
+}
+.contactLogo {
+  width: 32px;
+  height: 32px;
+}
+.contactR {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  text-decoration: 2px underline #f15025;
+  color: black;
+}
+.contactLogoText {
+  text-align: left;
+  font-size: 1.25em;
+  margin-left: 0.5vw;
+}
+.flexContact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 98vw;
+  height: 8vh;
+}
+.slash {
+  width: 100%;
 }
