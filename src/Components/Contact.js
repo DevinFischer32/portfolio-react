@@ -3,6 +3,7 @@ import Linkedin from "./Logo/linkedin-logo.png";
 import github from "./Logo/github.png";
 import email from "./Logo/email.png";
 import resume from "./Logo/cv.png";
+import downloadableResume from "./Logo/Devin Fischer 2021 Resume.pdf";
 
 export default function Contact() {
   return (
@@ -57,7 +58,8 @@ export default function Contact() {
 
         <div>
           <a
-            href="https://docs.google.com/document/d/1A1k9nEkXs9OiuFztZ0Ik-7xtdJAyTOWU2zBnq3TapjU/edit?usp=sharing "
+            href={downloadableResume}
+            download
             target="_blank"
             rel="noreferrer"
             className="contactR"
