@@ -2,8 +2,9 @@ body {
   background-color: #e6e8e6;
   font-family: "Montserrat", sans-serif;
 }
-* {
-  font-family: "Montserrat", sans-serif;
+h1,
+h5 {
+  font-weight: 400;
 }
 html {
   scroll-behavior: smooth;
@@ -42,18 +43,17 @@ html {
 }
 .nav-links {
   font-size: 1.5vw;
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 .nav-links:hover {
   color: #e6e8e6;
-  text-decoration: 3px aliceblue underline;
+  text-decoration: 3px #e6e8e6 underline;
 }
-#About {
-}
+
 #intro-about {
-  height: 28vh;
-  padding: 5vh;
+  height: 25vh;
+  padding: 7vh;
 }
 #main-about {
   height: 55vh;
@@ -63,18 +63,21 @@ html {
 }
 .about-name {
   font-size: 1.75vw;
+  font-weight: 600;
 }
 .about-dev {
   font-size: 1.5vw;
+  font-weight: 600;
 }
 .titles {
+  font-weight: 600;
   font-size: 2.25vw;
   text-decoration: #f15025 3px underline;
 }
 #about-para {
   margin-top: 2vh;
-  width: 80%;
-  font-size: 1.65em;
+  width: 85%;
+  font-size: 1.75em;
   text-align: center;
 }
 #Skills {
@@ -85,7 +88,8 @@ html {
   background-color: #ced0ce;
 }
 #skills-title {
-  margin-bottom: 2vh;
+  padding-top: 2vh;
+  height: 8vh;
 }
 .skills-row {
   display: flex;
@@ -94,6 +98,7 @@ html {
 .known-titles {
   margin-top: 1vh;
   font-size: 1.5em;
+  font-weight: 600;
 }
 .skillsLogo {
   width: 96px;
@@ -102,17 +107,17 @@ html {
 #Projects {
   display: flex;
   flex-direction: column;
-  height: 93vh;
+  height: 100vh;
   align-items: center;
 }
 #ptitle {
-  padding-top: 5vh;
-  margin-bottom: 3vh;
+  height: 10vh;
+  padding-top: 7vh;
 }
 .projects-container {
   display: flex;
   width: 95vw;
-  height: 75vh;
+  height: 90vh;
   justify-content: space-around;
 }
 .pro-size {
@@ -122,6 +127,7 @@ html {
   align-items: center;
 }
 .protitle {
+  font-weight: 600;
   font-size: 1.75em;
 }
 .slider {
@@ -156,9 +162,9 @@ html {
 }
 .prodiscription {
   width: 35vw;
-  height: 30vh;
-  padding: 1vh;
-  border: 2px solid black;
+  padding: 2vh;
+  border: 2px solid #000;
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -166,27 +172,35 @@ html {
 }
 .stack {
   font-size: 1.5vw;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
+  font-weight: 600;
 }
 .disc {
   font-size: 1.25em;
-  margin-bottom: 1vh;
+  font-weight: 500;
+  padding: 1vh;
+  width: 90%;
+  margin-bottom: 2vh;
+  background-color: #ced0ce;
+  border: #000 2px solid;
 }
 .btnDiv {
-  width: 15vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 .btn-size {
-  width: 5vw;
+  width: 25%;
+  border-radius: 4px;
   height: 3.5vh;
-  font-size: 1.15em;
-  border: black 2px solid;
+  font-size: 1.25em;
+  font-weight: 600;
+  border: #000 2px solid;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: black;
+  color: #000;
   background-color: #f15025;
 }
 #Contact {
@@ -195,7 +209,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top-left-radius: #f15025 4px solid;
+  margin-top: 3vh;
 }
 #contact-title {
   padding: 5vh 0;
@@ -211,7 +225,7 @@ html {
   padding: 0.5vw;
   margin: 0.5vw;
   text-decoration: 2px underline #f15025;
-  color: black;
+  color: #000;
 }
 .contactLogoText {
   text-align: left;

@@ -11,9 +11,8 @@ export default function About() {
         <div id="main-about">
           <h1 className="titles">About Me</h1>
           <p id="about-para">
-            I love creating things that i can imagine with code and bringing
-            them to life. I attended Devmountain Bootcamp and Learned React
-            based Web Developement but love to learn other langagues.
+            I Attended Devmountain Bootcamp in Lehi, Ut for Web Development
+            Specialization.
           </p>
         </div>
       </div>

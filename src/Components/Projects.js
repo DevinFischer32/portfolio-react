@@ -1,4 +1,5 @@
 import React from "react";
+import SpSlider from "./SpSlider";
 import WheelSlider from "./WheelSlider";
 
 export default function Projects() {
@@ -12,10 +13,13 @@ export default function Projects() {
           <h1 className="protitle">Wheel of Fortune</h1>
           <WheelSlider />
           <div className="prodiscription">
-            <p className="stack">Firebase | React | Node.js | Three.js</p>
+            <p className="stack">Firebase | React | Node.js | Three.js | CSS</p>
             <p className="disc">
-              Wheel of fortune is a web application made for single player
-              games.
+              React based Wheel of Fortune Single player game. Firebase Auth and
+              Database. Three.js for 3D rendering of the Wheel and Landing Page.
+              Users log in and spin the wheel while gussing and trying to solve
+              the hidden phrase.{"    "} Check The Game Rules/H2P and try a few
+              rounds!
             </p>
             <div className="btnDiv">
               <a
@@ -40,19 +44,24 @@ export default function Projects() {
         <div id="pro2" className="pro-size">
           <h1 className="protitle">Schedule Planner</h1>
           <div id="pro1" className="pro-size">
-            <WheelSlider />
+            <SpSlider />
             <div className="prodiscription">
-              <p className="stack">Firebase | React | Node.js | Three.js</p>
+              <p className="stack">
+                JavaScript | HTML | CSS | Node.js | Express
+              </p>
               <p className="disc">
-                Wheel of fortune is a web application made for single player
-                games.
+                {" "}
+                Schedule Planner That allows users to plan out their day. Users
+                can edit old Postings and Delete them as well. This was my first
+                web application made with Javascript and HTML. Hosted Using
+                Heroku
               </p>
               <div className="btnDiv">
                 <a
                   className="btn-size livestyle"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://capstone-wof.web.app"
+                  href="https://schedule-planner-devthedev.herokuapp.com/"
                 >
                   Live Site
                 </a>
@@ -60,7 +69,7 @@ export default function Projects() {
                   className="btn-size repostyle"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/DevinFischer32/capstone-wof"
+                  href="https://github.com/DevinFischer32/week8-project"
                 >
                   Repo
                 </a>
