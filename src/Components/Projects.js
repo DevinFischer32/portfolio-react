@@ -4,64 +4,32 @@ import WheelSlider from "./WheelSlider";
 
 export default function Projects() {
   return (
-    <div id="Projects">
-      <div className="titles" id="ptitle">
-        Projects
-      </div>
-      <div className="projects-container">
-        <div id="pro1" className="pro-size">
-          <h1 className="protitle">Wheel of Fortune</h1>
-          <WheelSlider />
-          <div className="prodiscription">
-            <p className="stack">Firebase | React | Node.js | Three.js | CSS</p>
-            <p className="disc">
-              React based Wheel of Fortune Single player game. Firebase Auth and
-              Database. Three.js for 3D rendering of the Wheel and Landing Page.
-              Users log in and spin the wheel while gussing and trying to solve
-              the hidden phrase.{"    "} Check The Game Rules/H2P and try a few
-              rounds!
-            </p>
-            <div className="btnDiv">
-              <a
-                className="btn-size livestyle"
-                target="_blank"
-                rel="noreferrer"
-                href="https://capstone-wof.web.app"
-              >
-                Live Site
-              </a>
-              <a
-                className="btn-size repostyle"
-                target="_blank"
-                rel="noreferrer"
-                href="https://github.com/DevinFischer32/capstone-wof"
-              >
-                Repo
-              </a>
-            </div>
-          </div>
+    <>
+      <div id="Projects">
+        <div className="titles" id="ptitle">
+          Projects
         </div>
-        <div id="pro2" className="pro-size">
-          <h1 className="protitle">Schedule Planner</h1>
+        <div className="projects-container">
           <div id="pro1" className="pro-size">
-            <SpSlider />
+            <h1 className="protitle">Wheel of Fortune</h1>
+            <WheelSlider />
             <div className="prodiscription">
               <p className="stack">
-                JavaScript | HTML | CSS | Node.js | Express
+                Firebase | React | Node.js | Three.js | CSS
               </p>
               <p className="disc">
-                {" "}
-                Schedule Planner That allows users to plan out their day. Users
-                can edit old Postings and Delete them as well. This was my first
-                web application made with Javascript and HTML. Hosted Using
-                Heroku
+                React based Wheel of Fortune Single player game. Firebase Auth
+                and Database. Three.js for 3D rendering of the Wheel and Landing
+                Page. Users log in and spin the wheel while gussing and trying
+                to solve the hidden phrase.{"    "} Check The Game Rules/H2P and
+                try a few rounds!
               </p>
               <div className="btnDiv">
                 <a
                   className="btn-size livestyle"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://schedule-planner-devthedev.herokuapp.com/"
+                  href="https://capstone-wof.web.app"
                 >
                   Live Site
                 </a>
@@ -69,15 +37,51 @@ export default function Projects() {
                   className="btn-size repostyle"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/DevinFischer32/week8-project"
+                  href="https://github.com/DevinFischer32/capstone-wof"
                 >
                   Repo
                 </a>
               </div>
             </div>
           </div>
+          <div id="pro2" className="pro-size">
+            <h1 className="protitle">Schedule Planner</h1>
+            <div id="pro1" className="pro-size">
+              <SpSlider />
+              <div className="prodiscription">
+                <p className="stack">
+                  JavaScript | HTML | CSS | Node.js | Express
+                </p>
+                <p className="disc">
+                  {" "}
+                  Schedule Planner That allows users to plan out their day.
+                  Users can edit old Postings and Delete them as well. This was
+                  my first web application made with Javascript and HTML. Hosted
+                  Using Heroku
+                </p>
+                <div className="btnDiv">
+                  <a
+                    className="btn-size livestyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://schedule-planner-devthedev.herokuapp.com/"
+                  >
+                    Live Site
+                  </a>
+                  <a
+                    className="btn-size repostyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DevinFischer32/week8-project"
+                  >
+                    Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

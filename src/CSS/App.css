@@ -9,236 +9,491 @@ h5 {
 html {
   scroll-behavior: smooth;
 }
+@media screen and (min-width: 768px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    padding: 0 4vw;
+  }
+  .flex {
+    display: flex;
+  }
+  #header-container {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    align-items: center;
+    background-color: #f15025;
+    height: 7vh;
+    justify-content: space-between;
+  }
+  #header-logo {
+    font-size: 2.5vw;
+    width: 10vw;
+    text-align: center;
+  }
+  #header-nav {
+    width: 35vw;
+  }
+  #nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-links {
+    font-size: 1.5vw;
+    color: #000;
+    text-decoration: none;
+  }
+  .nav-links:hover {
+    color: #e6e8e6;
+    text-decoration: 3px #e6e8e6 underline;
+  }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 10vw;
-  padding: 0 4vw;
-}
-.flex {
-  display: flex;
-}
-#header-container {
-  position: sticky;
-  z-index: 2;
-  top: 0;
-  align-items: center;
-  background-color: #f15025;
-  height: 7vh;
-  justify-content: space-between;
-}
-#header-logo {
-  font-size: 2.5vw;
-  width: 10vw;
-  text-align: center;
-}
-#header-nav {
-  width: 35vw;
-}
-#nav {
-  display: flex;
-  justify-content: space-around;
-}
-.nav-links {
-  font-size: 1.5vw;
-  color: #000;
-  text-decoration: none;
-}
-.nav-links:hover {
-  color: #e6e8e6;
-  text-decoration: 3px #e6e8e6 underline;
+  #intro-about {
+    height: 25vh;
+    padding: 7vh;
+  }
+  #main-about {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-name {
+    font-size: 1.75vw;
+    font-weight: 600;
+  }
+  .about-dev {
+    font-size: 1.5vw;
+    font-weight: 600;
+  }
+  .titles {
+    font-weight: 600;
+    font-size: 2.25vw;
+    text-decoration: #f15025 3px underline;
+  }
+  #about-para {
+    margin-top: 2vh;
+    width: 85%;
+    font-size: 1.75em;
+    text-align: center;
+  }
+  #Skills {
+    padding: 5vh 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ced0ce;
+  }
+  #skills-title {
+    height: 8vh;
+  }
+  .skills-row {
+    display: flex;
+    padding: 2rem;
+  }
+  .known-titles {
+    margin-top: 1vh;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .skillsLogo {
+    width: 96px;
+    height: 96px;
+  }
+  #Projects {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    align-items: center;
+  }
+  #ptitle {
+    height: 10vh;
+    padding-top: 7vh;
+  }
+  .projects-container {
+    display: flex;
+    width: 95vw;
+    justify-content: space-around;
+  }
+  .pro-size {
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .protitle {
+    font-weight: 600;
+    font-size: 1.75em;
+  }
+  .slider {
+    height: 40vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 35vw;
+    height: 30vh;
+  }
+  .right-arrow {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.75rem;
+  }
+  .left-arrow {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.75rem;
+  }
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.02);
+  }
+  .prodiscription {
+    width: 35vw;
+    padding: 2vh;
+    border: 2px solid #000;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stack {
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+    font-weight: 600;
+  }
+  .disc {
+    font-size: 1.25em;
+    font-weight: 500;
+    padding: 1vh;
+    width: 90%;
+    margin-bottom: 2vh;
+    background-color: #ced0ce;
+    border: #000 2px solid;
+  }
+  .btnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn-size {
+    width: 25%;
+    border-radius: 4px;
+    height: 3.5vh;
+    font-size: 1.25em;
+    font-weight: 600;
+    border: #000 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #f15025;
+  }
+  #Contact {
+    background-color: #ced0ce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+  }
+  #contact-title {
+    padding: 5vh 0;
+  }
+  .contactLogo {
+    width: 32px;
+    height: 32px;
+  }
+  .contactR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    text-decoration: 2px underline #f15025;
+    color: #000;
+  }
+  .contactLogoText {
+    text-align: left;
+    font-size: 1.25em;
+    margin-left: 0.5vw;
+  }
+  .flexContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 8vh;
+  }
+  .slash {
+    width: 100%;
+  }
+  #contact-flex {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+  }
 }
 
-#intro-about {
-  height: 25vh;
-  padding: 7vh;
-}
-#main-about {
-  height: 55vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about-name {
-  font-size: 1.75vw;
-  font-weight: 600;
-}
-.about-dev {
-  font-size: 1.5vw;
-  font-weight: 600;
-}
-.titles {
-  font-weight: 600;
-  font-size: 2.25vw;
-  text-decoration: #f15025 3px underline;
-}
-#about-para {
-  margin-top: 2vh;
-  width: 85%;
-  font-size: 1.75em;
-  text-align: center;
-}
-#Skills {
-  padding: 5vh 3vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ced0ce;
-}
-#skills-title {
-  padding-top: 2vh;
-  height: 8vh;
-}
-.skills-row {
-  display: flex;
-  padding: 2rem;
-}
-.known-titles {
-  margin-top: 1vh;
-  font-size: 1.5em;
-  font-weight: 600;
-}
-.skillsLogo {
-  width: 96px;
-  height: 96px;
-}
-#Projects {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-}
-#ptitle {
-  height: 10vh;
-  padding-top: 7vh;
-}
-.projects-container {
-  display: flex;
-  width: 95vw;
-  height: 90vh;
-  justify-content: space-around;
-}
-.pro-size {
-  width: 45vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.protitle {
-  font-weight: 600;
-  font-size: 1.75em;
-}
-.slider {
-  height: 40vh;
-  width: 45vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.image {
-  width: 35vw;
-  height: 30vh;
-}
-.right-arrow {
-  width: 2rem;
-  height: 2rem;
-  margin-left: 0.75rem;
-}
-.left-arrow {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.75rem;
-}
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
-}
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.02);
-}
-.prodiscription {
-  width: 35vw;
-  padding: 2vh;
-  border: 2px solid #000;
+@media screen and (max-width: 767px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    padding: 1rem 0;
+  }
+  .flex {
+    display: flex;
+  }
+  #header-container {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    align-items: center;
+    background-color: #f15025;
+    height: 7vh;
+    justify-content: space-between;
+  }
+  #header-logo {
+    font-size: 1.5em;
+    margin-left: 1vh;
+    font-weight: 600;
+    width: 10vw;
+    text-align: center;
+  }
+  #header-nav {
+    width: 65vw;
+  }
+  #nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-links {
+    font-size: 1em;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+  }
+  .nav-links:hover {
+    color: #e6e8e6;
+    text-decoration: 2px #e6e8e6 underline;
+  }
 
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.stack {
-  font-size: 1.5vw;
-  margin-bottom: 2vh;
-  font-weight: 600;
-}
-.disc {
-  font-size: 1.25em;
-  font-weight: 500;
-  padding: 1vh;
-  width: 90%;
-  margin-bottom: 2vh;
-  background-color: #ced0ce;
-  border: #000 2px solid;
-}
-.btnDiv {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-.btn-size {
-  width: 25%;
-  border-radius: 4px;
-  height: 3.5vh;
-  font-size: 1.25em;
-  font-weight: 600;
-  border: #000 2px solid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #000;
-  background-color: #f15025;
-}
-#Contact {
-  background-color: #ced0ce;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3vh;
-}
-#contact-title {
-  padding: 5vh 0;
-}
-.contactLogo {
-  width: 32px;
-  height: 32px;
-}
-.contactR {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5vw;
-  margin: 0.5vw;
-  text-decoration: 2px underline #f15025;
-  color: #000;
-}
-.contactLogoText {
-  text-align: left;
-  font-size: 1.25em;
-  margin-left: 0.5vw;
-}
-.flexContact {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 98vw;
-  height: 8vh;
-}
-.slash {
-  width: 100%;
+  #intro-about {
+    height: 20vh;
+    padding: 8vh 5vh;
+  }
+  #main-about {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-name {
+    font-size: 1.15em;
+    font-weight: 600;
+  }
+  .about-dev {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .titles {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 8vh;
+    text-decoration: #f15025 3px underline;
+  }
+  #about-para {
+    margin-top: 2vh;
+    width: 85%;
+    font-size: 1.35em;
+    text-align: center;
+  }
+  #Skills {
+    padding: 0 3vw;
+    padding-bottom: 5vh;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ced0ce;
+  }
+
+  .skills-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+  #skills-phone {
+    display: flex;
+  }
+  .known-titles {
+    margin-top: 1vh;
+    font-size: 1.25em;
+    font-weight: 600;
+  }
+  .skillsLogo {
+    width: 80px;
+    height: 80px;
+  }
+  #Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #ptitle {
+    height: 10vh;
+  }
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    justify-content: space-around;
+  }
+  #pro1 {
+    margin-bottom: 5vh;
+  }
+  .pro-size {
+    width: 97vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #pro2 {
+    margin-top: 3vh;
+  }
+  .protitle {
+    margin-top: 2vh;
+    font-weight: 600;
+    font-size: 1.65em;
+  }
+  .slider {
+    height: 30vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 75vw;
+    height: 20vh;
+  }
+  .right-arrow {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-left: 0.75rem;
+  }
+  .left-arrow {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 0.75rem;
+  }
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.05);
+  }
+  .prodiscription {
+    width: 80vw;
+    padding: 2vw;
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stack {
+    font-size: 0.9em;
+    margin-bottom: 2vh;
+    font-weight: 600;
+  }
+  .disc {
+    font-size: 1em;
+    font-weight: 500;
+    padding: 1vh;
+    width: 90%;
+    margin-bottom: 1vh;
+    background-color: #ced0ce;
+    border: #000 1px solid;
+  }
+  .btnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn-size {
+    width: 25%;
+    border-radius: 4px;
+    height: 3vh;
+    font-size: 1em;
+    font-weight: 600;
+    border: #000 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #f15025;
+  }
+  #Contact {
+    background-color: #ced0ce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  #contact-title {
+    padding: 5vh 0;
+  }
+  .contactLogo {
+    width: 24px;
+    height: 24px;
+  }
+  .contactR {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    text-decoration: 2px underline #f15025;
+    color: #000;
+  }
+  .contactLogoText {
+    font-size: 1em;
+    margin-left: 0.5vw;
+  }
+  .flexContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98vw;
+  }
+  .slash {
+    width: 100%;
+  }
+  #contact-flex {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+  }
 }
