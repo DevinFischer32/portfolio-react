@@ -81,7 +81,7 @@ html {
     text-align: center;
   }
   #Skills {
-    padding: 5vh 3vw;
+    padding: 8vh 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,9 +114,13 @@ html {
     padding-top: 7vh;
   }
   .projects-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 95vw;
     justify-content: space-around;
+  }
+  #pro2 {
+    margin-top: 3vh;
   }
   .pro-size {
     width: 45vw;
@@ -374,6 +378,9 @@ html {
     align-items: center;
   }
   #pro2 {
+    margin-top: 3vh;
+  }
+  #pro3 {
     margin-top: 3vh;
   }
   .protitle {

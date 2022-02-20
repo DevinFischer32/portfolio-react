@@ -1,6 +1,7 @@
 import React from "react";
 import SpSlider from "./SpSlider";
 import WheelSlider from "./WheelSlider";
+import WeatherSlider from "./WeatherSlider";
 
 export default function Projects() {
   return (
@@ -41,6 +42,40 @@ export default function Projects() {
                 >
                   Repo
                 </a>
+              </div>
+            </div>
+          </div>
+          <div id="pro3" className="pro-size">
+            <h1 className="protitle">Weather App</h1>
+            <div id="pro1" className="pro-size">
+              <WeatherSlider />
+              <div className="prodiscription">
+                <p className="stack">
+                  React.js | JavaScript | HTML | CSS | Node.js | Express | Axios
+                </p>
+                <p className="disc">
+                  {" "}
+                  The Weather App allows users to search weather from anywhere
+                  in the world. Using Openweather API and heroku for Hosting.
+                </p>
+                <div className="btnDiv">
+                  <a
+                    className="btn-size livestyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://weather-app-df32.herokuapp.com/"
+                  >
+                    Live Site
+                  </a>
+                  <a
+                    className="btn-size repostyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DevinFischer32/weather"
+                  >
+                    Repo
+                  </a>
+                </div>
               </div>
             </div>
           </div>

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { SliderTwo } from "./Wheelpic";
+import { SliderThree } from "./Wheelpic";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
-const SpSlider = () => {
+const WheelSlider = () => {
   const [current, setcurrent] = useState(0);
-  const length = SliderTwo.length;
+  const length = SliderThree.length;
 
-  if (!Array.isArray(SliderTwo) || length === 0) {
+  if (!Array.isArray(SliderThree) || length === 0) {
     return null;
   }
 
@@ -19,7 +19,7 @@ const SpSlider = () => {
   return (
     <section className=" slider">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      {SliderTwo.map((slide, index) => {
+      {SliderThree.map((slide, index) => {
         return (
           <div
             className={index === current ? "slide active" : "slide"}
@@ -36,4 +36,4 @@ const SpSlider = () => {
   );
 };
 
-export default SpSlider;
+export default WheelSlider;

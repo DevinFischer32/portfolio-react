@@ -6,7 +6,7 @@ const WheelSlider = () => {
   const [current, setcurrent] = useState(0);
   const length = SliderOne.length;
 
-  if (!Array.isArray(SliderOne) || SliderOne.length === 0) {
+  if (!Array.isArray(SliderOne) || length === 0) {
     return null;
   }
 
