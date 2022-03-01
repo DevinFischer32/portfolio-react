@@ -119,7 +119,7 @@ html {
     width: 95vw;
     justify-content: space-around;
   }
-  #pro2 {
+  .pro2 {
     margin-top: 3vh;
   }
   .pro-size {
@@ -377,7 +377,7 @@ html {
     flex-direction: column;
     align-items: center;
   }
-  #pro2 {
+  .pro2 {
     margin-top: 3vh;
   }
   #pro3 {

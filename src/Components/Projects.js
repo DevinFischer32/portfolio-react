@@ -2,6 +2,7 @@ import React from "react";
 import SpSlider from "./SpSlider";
 import WheelSlider from "./WheelSlider";
 import WeatherSlider from "./WeatherSlider";
+import WorldeSlider from "./WordleSlider";
 
 export default function Projects() {
   return (
@@ -48,6 +49,40 @@ export default function Projects() {
           <div id="pro3" className="pro-size">
             <h1 className="protitle">Weather App</h1>
             <div id="pro1" className="pro-size">
+              <WorldeSlider />
+              <div className="prodiscription">
+                <p className="stack">
+                  React.js | JavaScript | CSS | Node.js | Express | Redux
+                </p>
+                <p className="disc">
+                  {" "}
+                  Wordle Clone made with React. Saves data to Cookies and tracks
+                  Stats. This version of Wordles allows unlimted plays.
+                </p>
+                <div className="btnDiv">
+                  <a
+                    className="btn-size livestyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://wordle-unlimited-df.herokuapp.com"
+                  >
+                    Live Site
+                  </a>
+                  <a
+                    className="btn-size repostyle"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DevinFischer32/wordleClone"
+                  >
+                    Repo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pro-size pro2">
+            <h1 className="protitle">Weather App</h1>
+            <div id="pro1" className="pro-size">
               <WeatherSlider />
               <div className="prodiscription">
                 <p className="stack">
@@ -79,7 +114,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div id="pro2" className="pro-size">
+          <div className="pro-size pro2">
             <h1 className="protitle">Schedule Planner</h1>
             <div id="pro1" className="pro-size">
               <SpSlider />

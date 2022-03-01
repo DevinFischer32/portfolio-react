@@ -12,6 +12,12 @@ import spHome from "../photos/Home-SP.PNG";
 import spList from "../photos/List-SP.PNG";
 import spEdit from "../photos/Edit-SP.PNG";
 
+import WordleMain from "../photos/wordleImage/MainPhoto.PNG";
+import WordleHalf from "../photos/wordleImage/halfFilled.PNG";
+import Wordleh2p from "../photos/wordleImage/h2p.PNG";
+import Wordlesetting from "../photos/wordleImage/setting.PNG";
+import Wordlestats from "../photos/wordleImage/stats.PNG";
+
 export const SliderOne = [
   {
     image: homepage,
@@ -50,5 +56,22 @@ export const SliderThree = [
   },
   {
     image: WeatherData,
+  },
+];
+export const SliderFour = [
+  {
+    image: WordleMain,
+  },
+  {
+    image: WordleHalf,
+  },
+  {
+    image: Wordleh2p,
+  },
+  {
+    image: Wordlestats,
+  },
+  {
+    image: Wordlesetting,
   },
 ];
