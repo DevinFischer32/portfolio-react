@@ -12,7 +12,9 @@ export default function About() {
           <h1 className="titles">About Me</h1>
           <p id="about-para">
             I Attended Devmountain Bootcamp in Lehi, Ut for Web Development
-            Specialization.
+            Specialization. That's where I fell in love with coding and learning
+            how to code. Being able to bring ideas to life is amazing and
+            fulfilling to do.
           </p>
         </div>
       </div>

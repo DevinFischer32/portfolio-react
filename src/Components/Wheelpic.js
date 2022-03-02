@@ -5,8 +5,9 @@ import spin from "../photos/Wheel.PNG";
 import keyboard from "../photos/Keyboard.PNG";
 import solve from "../photos/SolvePage.PNG";
 
-import LandingWeather from "../photos/WeatherApp/MainPageWeatherApp.PNG";
-import WeatherData from "../photos/WeatherApp/WeatherData.PNG";
+import LandingWeather from "../photos/WeatherApp/Main.PNG";
+import WeatherData from "../photos/WeatherApp/MainData.PNG";
+import WeatherData2 from "../photos/WeatherApp/MainData2.PNG";
 
 import spHome from "../photos/Home-SP.PNG";
 import spList from "../photos/List-SP.PNG";
@@ -56,6 +57,9 @@ export const SliderThree = [
   },
   {
     image: WeatherData,
+  },
+  {
+    image: WeatherData2,
   },
 ];
 export const SliderFour = [

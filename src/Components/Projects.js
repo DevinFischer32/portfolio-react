@@ -47,7 +47,7 @@ export default function Projects() {
             </div>
           </div>
           <div id="pro3" className="pro-size">
-            <h1 className="protitle">Weather App</h1>
+            <h1 className="protitle">Wordle Clone</h1>
             <div id="pro1" className="pro-size">
               <WorldeSlider />
               <div className="prodiscription">
