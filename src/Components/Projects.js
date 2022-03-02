@@ -98,7 +98,7 @@ export default function Projects() {
                     className="btn-size livestyle"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://weather-app-df32.herokuapp.com/"
+                    href="https://weatherapp-df.herokuapp.com/"
                   >
                     Live Site
                   </a>
