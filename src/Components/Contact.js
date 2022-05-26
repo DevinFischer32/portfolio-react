@@ -3,7 +3,7 @@ import Linkedin from "./Logo/linkedin-logo.png";
 import github from "./Logo/github.png";
 import email from "./Logo/email.png";
 import resume from "./Logo/cv.png";
-import downloadableResume from "./Logo/2022 Resume.pdf";
+import downloadableResume from "./Logo/DF2022R.pdf";
 
 export default function Contact() {
   return (
