@@ -60,14 +60,7 @@ export default function Projects() {
                   Stats. This version of Wordles allows unlimted plays.
                 </p>
                 <div className="btnDiv">
-                  <a
-                    className="btn-size livestyle"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://wordle-unlimited-df.herokuapp.com"
-                  >
-                    Live Site
-                  </a>
+
                   <a
                     className="btn-size repostyle"
                     target="_blank"
@@ -94,14 +87,7 @@ export default function Projects() {
                   in the world. Using Openweather API and heroku for Hosting.
                 </p>
                 <div className="btnDiv">
-                  <a
-                    className="btn-size livestyle"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://weatherapp-df.herokuapp.com/"
-                  >
-                    Live Site
-                  </a>
+
                   <a
                     className="btn-size repostyle"
                     target="_blank"
@@ -130,14 +116,7 @@ export default function Projects() {
                   Using Heroku
                 </p>
                 <div className="btnDiv">
-                  <a
-                    className="btn-size livestyle"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://schedule-planner-devthedev.herokuapp.com/"
-                  >
-                    Live Site
-                  </a>
+
                   <a
                     className="btn-size repostyle"
                     target="_blank"
